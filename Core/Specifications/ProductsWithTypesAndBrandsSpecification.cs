@@ -23,7 +23,7 @@ namespace Core.Specifications
             productParams.PageSize);
 ;
             if (!string.IsNullOrEmpty(productParams.Sort))
-            {
+            {  
                 switch (productParams.Sort)
                 {
                     case "priceAsc":
